@@ -5,7 +5,7 @@ docker:
   pkg.installed:
     - name: docker
     - required:
-      - pkg.repo: epel
+      - pkg: epel
   service.running:
     - name: docker
     - required:
